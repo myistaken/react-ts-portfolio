@@ -15,7 +15,7 @@ const Skills = () => {
     
       <div className="skills-left"></div>
       <div className="skills-right">
-        <Canvas className="canvas" style={{width:150,height:150}}>
+        <Canvas className="canvas" style={{width:150,height:150,position:"fixed",top:0,right:0}}>
           <pointLight position={[5, 5, 5]} />
           <Box />
         </Canvas>
