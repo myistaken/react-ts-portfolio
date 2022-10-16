@@ -1,0 +1,38 @@
+svg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  fill: rgb(36, 38, 59);
+}
+span {
+  height: 10px;
+}
+.container {
+  height: 180px;
+  width: 1535px;
+  background-size: cover;
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.projects {
+  background-color: rgba(228, 233, 210, 0.518);
+}
+.wrapper {
+    padding: 4rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3px;
+    grid-auto-rows: 200px;
+  }
+  .wrapper *{
+    border-radius: 5%;
+    background-color: white;
+    border: 1px solid black;
+  }

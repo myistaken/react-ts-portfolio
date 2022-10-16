@@ -1,27 +1,9 @@
+.skills{
+  background-color: bisque;
+}
+
 .canvas{
   position: absolute;
   top: 0;
   right: 0;
 }
-svg {
-  position: absolute;
-  top: 0;
-  right: 0;
-    display: inline-block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    fill:rgb(36, 38, 59);
-  }
-  span{
-    height: 10px;
-  }
-  .container {
-    background-size:cover;
-    display: inline-block;
-    position: relative;
-    width: 100%;
-    padding-bottom: 100%;
-    vertical-align: middle;
-    overflow: hidden;
-  }

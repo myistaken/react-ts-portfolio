@@ -7,6 +7,7 @@
     justify-content: center;
     gap: 50px;
     align-items: center;
+    height: 350px;
 }
 .typing{
     font-size: 25px;

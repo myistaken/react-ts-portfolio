@@ -8,9 +8,9 @@ const AppBar = () => {
             <div className='logo'>Mustafa YILMAZ</div>
             <div className='list'>
                 <ul>
-                    <li>Hakkında</li>
-                    <li>Yetenekler</li>
+                    <li>Hakkımda</li>
                     <li>Projeler</li>
+                    <li>Yetenekler</li>
                     <li>İletişim</li>
                 </ul>
             </div>

@@ -1,18 +1,21 @@
 .appbar{
     position: fixed;
+    z-index: 10;
     top: 0;
     left: 0;
     right: 0;
     height: 50px;
     display: flex;
     justify-content: center;
+    background-color: rgba(0, 0, 0, 0.142);
     align-items: center;
 }
 .header{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 200px;
+    gap: 500px;
+
 }
 .list ul{
     all: unset;
@@ -24,5 +27,11 @@
 }
 .list ul li{
     all: unset;
+    color: white;
     
+}
+.logo{
+    color: white;
+    font-size: larger;
+    font-weight: bold;
 }
