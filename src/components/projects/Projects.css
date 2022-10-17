@@ -1,3 +1,7 @@
+.title{
+    font-size: 50px;
+}
+
 svg {
   position: absolute;
   top: 0;
@@ -12,8 +16,8 @@ span {
   height: 10px;
 }
 .container {
-  height: 180px;
-  width: 1535px;
+  height: 200px;
+  width: 1690px;
   background-size: cover;
   display: inline-block;
   position: relative;
@@ -32,7 +36,12 @@ span {
     grid-auto-rows: 200px;
   }
   .wrapper *{
+    cursor:pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
     border-radius: 5%;
-    background-color: white;
+    background-color:#24263b;
     border: 1px solid black;
   }

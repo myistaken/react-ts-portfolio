@@ -27,6 +27,7 @@
 }
 .list ul li{
     all: unset;
+    cursor: pointer;
     color: white;
     
 }

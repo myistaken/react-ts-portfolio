@@ -11,7 +11,7 @@ export const Box = () => {
   return (
     <mesh ref={boxRef} rotation-x={Math.PI * 0.25} rotation-y={Math.PI * 0.25}>
       <boxGeometry args={[2, 2, 2]} />
-      <meshStandardMaterial color={"red"} />
+      <meshStandardMaterial color={"white"} />
     </mesh>
   );
 };

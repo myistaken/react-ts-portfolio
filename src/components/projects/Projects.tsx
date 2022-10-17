@@ -13,12 +13,13 @@ const Projects = () => {
       <div className="title">Projeler</div>
       <div className="project-list">
         <div className="wrapper">
-            <div>Item 1</div>
-            <div>Item 2</div>
-            <div>Item 3</div>
-            <div>Item 4</div>
-            <div>Item 5</div>
-            <div>Item 6</div>
+
+            <div>SSH</div>
+            <div>Panel</div>
+            <div>Trenify</div>
+            <div>Portfolio</div>
+            <div>Riyym</div>
+            <div>HomeBook</div>
             <div>Item 7</div>
             <div>Item 8</div>
             <div>Item 9</div>

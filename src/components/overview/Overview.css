@@ -3,11 +3,18 @@
     padding-top: 4rem;
     color: white;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    height: 380px;
+}
+.overview-content{
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
     gap: 50px;
     align-items: center;
-    height: 350px;
 }
 .typing{
     font-size: 25px;
